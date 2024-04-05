@@ -25,8 +25,13 @@
                 background-color: #FCE09B;
                 flex: 1 1 auto; 
                 height: 40px; 
-                
+                transition: transform 0.2s ease;  
             }
+            .logo:hover{
+                background-color:#A87C7C;
+                transform: scale(1.2);   
+            }
+                
             .nav {
                 background-color: #FCE09B; 
                 flex: 5 1 auto; 
