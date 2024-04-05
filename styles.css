@@ -1,0 +1,106 @@
+@media all and (max-width: 1200px) {
+    *{
+        margin: 10px; 
+        padding: 10px; 
+        box-sizing: border-box; 
+        font-weight: bold;
+    }
+    .container{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .header{
+        background-color: #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu {
+            background-color: #186F65;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 70px;  
+        }
+            .logo {
+                background-color: #FCE09B;
+                flex: 1 1 auto; 
+                height: 40px; 
+                
+            }
+            .nav {
+                background-color: #FCE09B; 
+                flex: 5 1 auto; 
+                height: 40px;  
+            }
+            .social { 
+                background-color: #FCE09B;
+                flex: 1 1 auto; 
+                height: 40px;
+                
+            }
+            .banner {
+                background-color: #B2533E;
+        }
+            h1 {
+                background-color: #B5CB99;
+            }
+    
+    .section {
+        background-color:#000;
+        display: flex;
+        height: 70%;
+    }
+        .articulos {
+            background: #A87C7C;
+            flex: 2 1 auto;
+            display: flex; 
+            flex-flow: row wrap;
+        }
+            .articulo{
+                background: #F6B17A;
+                flex: 1 1 40%;
+                height: 40px;       
+            }
+    
+            .navegacion {
+                background: #7077A1;
+                flex: 1 1 100%;
+                height: 40px;
+            }
+        .aside {
+            background: #4F6F52;  
+            flex:1 1 auto;
+        }
+            .publicidad {
+                background: #1F4172;
+                height: 40px;
+            }
+    .footer {
+        display: flex;
+        background-color: #000;
+    }
+        .pie {
+            background-color: #F3B664;
+            flex: 1 1 auto;
+            align-items: center;
+        }
+    }
+    
+    @media all and (max-width: 768px) {
+        .menu {
+            flex-direction: column;
+            height: auto;
+        }
+    
+        .section {
+            flex-direction: column;
+        }
+    
+        }
+    
+    @media all and (max-width: 576px) {
+        .articulos{
+            flex-direction: column;
+        }
+    }
+    
+    
